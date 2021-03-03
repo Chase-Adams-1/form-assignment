@@ -1,0 +1,58 @@
+/* Form */
+.form-container {
+    max-width: 65%;
+}
+
+.form-heading-div {
+    display: flex;
+    justify-content: center;
+}
+
+.form-div {
+    padding: 10px;
+    border: 2px solid black;
+    min-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+form {
+    padding: 10px;
+}
+
+#name, #email {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+textarea {
+    border: 1px solid black;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+button {
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
